@@ -1,9 +1,10 @@
-Project Description
+
 This Python-based project performs real-time license plate detection and recognition from videos and images using OpenCV and EasyOCR. The program is optimized for Google Colab, supporting file uploads since direct webcam access isn't available. It identifies license plate regions using contour detection and extracts text using optical character recognition (OCR) with EasyOCR.
 
 The output is an annotated video or image showing the recognized license plate number overlaid on the frame, along with a cropped view of the plate region if available.
 
 Workflow Overview
+
 1. Initialization
 Required libraries like cv2, numpy, easyocr, imutils, and re are imported.
 
